@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap');      
+
+           /* font-family: 'Alfa Slab One', cursive;  */
+ /* font-family: 'Bebas Neue', sans-serif; */
+ /* font-family: 'Montserrat', sans-serif; */
+            /* font-family: 'Poppins', sans-serif;     */
+
+/*     global css */
+*{  
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 1140px;
+}
+
+a, a:hover{
+
+    text-decoration: none;
+}
+
+/* main css */
+
+.header-section{
+                  width: 100%;
+                  padding: 50px 0px;
+                    position: absolute;
+
+
+
+}
+.wrapaper{ 
+             width: 1140px ;
+             margin: auto;
+}
+.navbar{
+          display: flex;
+          justify-content: space-between;
+}
+.logo{
+
+
+
+}
+.nav-part{
+    text-align: right;
+
+
+}
+.contact{
+    
+}
+.contact img{
+    vertical-align: middle;
+
+
+}
+.contact span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;     
+    font-weight: 700;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-top: 3px;
+    color: #3d2514;
+}
+
+
+.menu{
+     margin: 20px 0px 20px 20px ;
+
+}
+
+.menu ul{ 
+    margin: 0;
+     padding: 0;
+
+
+}
+.menu ul li{ list-style: none;
+             display: inline-block;
+            margin-left: 20px; 
+
+
+}
+.menu ul li a{ font-family: 'Bebas Neue', sans-serif ;
+              font-size: 20px;
+              text-transform: uppercase;
+             letter-spacing: 3px;
+             font-weight: 400;
+            color: #3d2514;
+
+}
+/* banner section  */
+.banner-section{
+                width: 100%;
+               background: url(../img/House-\(1\).png);
+               background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              height: 73vh;
+             padding-top: 290px;
+
+}
+
+.content{
+            display: flex;
+            align-items: center;
+
+}
+.left,.right{
+             flex-basis: 50%;
+
+
+}
+.left span{ font-family: 'Bebas Neue', sans-serif;
+           font-size: 24px;
+           color: #3d2514;
+          border: 2px dushed #3d2514;
+          padding: 8PX;
+        
+}
+.left h1{
+    font-family: 'Alfa Slab One', cursive;     
+    font-size: 114px;
+    color: #3d2514;
+   letter-spacing: 2px;
+  text-shadow: 3px 2px #fff;
+  margin-top: 6px;
+ text-transform: uppercase;
+
+
+}
+
+.left h2{
+    font-family: 'Alfa Slab One', cursive;     
+    font-size: 56px;
+    color: #3d2514;
+   letter-spacing: 2px;
+  text-shadow: 3px 2px #fff;
+  margin-top: -30px;
+ text-transform: uppercase;
+
+}
+.right{
+     position: relative;
+     font-family: 'Alfa Slab One', cursive;     
+     font-size: 114px;
+     color: #3d2514;
+    letter-spacing: 2px;
+   text-shadow: 3px 2px #fff;
+   margin-top: 6px;
+ 
+
+}
+.bg-part{ position: absolute;
+          top: 185px;
+
+
+   
+}
+.bg-part img{
+  margin-top:  -151px; 
+  margin-left: -751px;
+
+}
+.bg-part span{
+    font-family: 'Alfa Slab One', cursive;      
+   font-size: 40px;
+   color: #fff;  
+   font-weight: 300;
+    position: absolute; 
+   margin-left: -195px;
+   margin-top: -55px;
+
+
+}
+.bg-part p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 56px;
+    color:#fff;
+    font-weight: 300;
+    text-transform: uppercase; 
+    letter-spacing: 3px;
+      position: absolute; 
+    margin-left: ;
+     top:-7px ;
+   
+}
+/* group two start  */
+
+.second-part{
+    width: 100%;
+    padding: 100px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+
+}
+.container{ width: 1140px;
+            margin: auto;
+
+}
+.offer{ display: flex;
+       width: 100%;
+   
+
+
+}
+.img-left-a{ 
+    margin-left: -72px;
+    /* position: relative;   */
+
+}
+
+.text{
+         /* position: absolute; */
+     
+         font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.text h4{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top:-194px;
+    margin-left: 21px;
+
+}
+.text h2{ 
+    text-transform: uppercase;
+
+
+
+}
+.img-right-a{
+            margin-top: 20pxpx;
+            margin-left: 21px;
+
+}
+.text{
+      margin-top: -401px;
+      margin-left: 10px;
+      color: #fff;
+      font-size:24px ;
+
+}
+.text h4{
+    margin-top: -401px;
+    margin-left: 0px;
+    color: #fff;
+    font-size:24px ;
+
+}
+
+
+.text1{
+    margin-top: -177px;
+   margin-left: 14px;
+   text-transform: uppercase;
+   font-size: 20px;
+   color: #fff;
+   font-family: 'Bebas Neue', sans-serif;
+
+
+
+}
+.text1 h4{
+    margin-top: px;
+    margin-left:px;
+    color: #fff;
+    font-size:18px ;
+
+}
+
+
+.text2{
+   margin-top: -177px;
+   margin-left: 14px;
+   text-transform: uppercase;
+   font-size: 20px;
+   color: #fff;
+   font-family: 'Bebas Neue', sans-serif;
+
+}
+.text h4{
+    margin-top: px;
+    margin-left: px;
+    color: #fff;
+    font-size:18px ;
+
+}
+
+
+.img-right-b{
+        margin-top:235px;      
+        margin-left: -589px;
+
+
+}
+
+
+
+/* group three start */
+
+.third-part {
+
+
+
+
+}
+
+.button1 {
+     text-align: center;
+    margin-top: 146px;}
+
+.button1 a{
+    /* font-family: 'Alfa Slab One', cursive; */
+    background:#FFC239;
+    color: #3d2514;
+    padding:17px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+   
+  }
+  
+  .title { 
+    margin-top: 30px;
+    text-align:center ;
+                   
+
+  }
+ .title h1{font-size:30px;
+          text-transform: capitalize;
+          font-family:'Alfa Slab One', cursive;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          color: #3d2514;
+          /* font-family: 'Bebas Neue', sans-serif; */
+  }
+ .title p{font-size: 22px;
+                  font-style: italic;      
+                  margin-top: 10px;
+                  color: #3d2514;
+  
+  }         
+
+  .project_inner{ 
+    
+    margin-top: 39px;
+    display: flex;
+    width: 100%;
+
+
+}
+.project_inner .catagories{margin: 20px;
+
+text-align: center;
+transition: 0,.5;
+}
+
+
+.project_inner .catagories img{ width: 100%;
+                                
+
+}
+.project_inner .catagories h4{  
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 30PX;
+    color: #3d2514;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.project_inner .catagories p{  
+    margin-top: 20px;
+   color: #3d2514;
+    font-size: 20PX;
+
+
+}
+
+.button2 {
+    text-align: center;
+   margin-top: 20px;}
+
+.button2 a{
+   font-family: 'Alfa Slab One', cursive;
+   background:red;
+   color: white;
+   padding:10px 10px;
+   border-radius: 5px;
+   font-size: 15px;
+   text-transform: uppercase;
+  
+ }
+ 
+
+/* group four start */
+
+.forth-part{
+       margin: 88px;
+
+
+}
+.come-part{
+
+
+}
+.come-part img{ 
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;   
+    width: 100%;
+
+
+}
+/* group  five start */
+
+.reservation{
+    width: 100%;
+    display: inline-block;
+}
+.reservation .reservation-p{
+    position: relative;
+}
+.reservation .reservation-p .title{
+    margin-top: 130px;
+    width: 100%;
+    text-align: center;
+}
+.reservation .reservation-p .title h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #3d2514;
+}
+.reservation .reservation-p .title h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #3d2514;
+    margin-top: 6px;
+    text-transform: uppercase;
+}
+
+
+
+
+.reservation .reservation-p .form{
+    width: 70%;
+    margin: 93px 50px 0px 188px;
+}
+.reservation .reservation-p .form .form-lnner{
+    width: 423px;
+    float: left;
+    margin-right: 19px;
+}
+.reservation .reservation-p .form .form-lnner input{
+    display: block;
+    padding: 18px 24px;
+    width: 380px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.reservation .reservation-p .form .form-lnner .a{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    background: #bf2222;
+    color: #fff;
+    padding: 14px 126px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    width: 434px;
+    
+}
+.reservation .reservation-p .one {
+    position: absolute;
+    left: -55px;
+    top: -100px;
+}
+.reservation .reservation-p .two {
+    position: absolute;
+    right: -59px;
+    top: 150px;
+}
+
+
+
+/* group six part */
+
+
+.bg-section{
+ 
+    width: 100%;
+    padding: 100px 28px;
+   background:url(../img/group2-3a.png);
+   background-position: center;
+   background-repeat:no-repeat ;
+   background-size: cover;
+  margin-top: 148px;
+   z-index: 1;
+  
+
+}
+
+
+
+
+.overlay{ 
+    top: 0;
+    bottom: 0;
+    left: 0;      
+    right: 0;
+     background-image: linear-gradient(to right, black ,  rgba(255, 255, 0, 0));
+    opacity: 0.7;
+     z-index: -1;
+
+}
+
+.footer-inner{
+
+
+
+}
+.left{
+    
+        margin-top: -37px;
+        margin-left: 33px;
+    
+
+
+}
+.logo{
+    
+    font-size: 25px;
+
+}
+.left  .logo{
+
+
+}
+.left p{
+       color: #fff;
+       font-size: 30px;
+       margin-top: 90px;
+
+}
+
+.left img{
+
+
+
+}
+.right{
+
+
+
+}
+.right .address{
+
+    color: #fff;
+    font-size: 20px;
+    margin-left: 744px;
+  
+
+}
+
+
+.icon{    
+
+
+}
+.icon ul{ margin-left: 789px;
+
+ padding: 0;
+display: flex;
+
+}
+.icon ul li{list-style: none;
+  margin-bottom: 10px;
+   margin: 10px;
+   background-color: #fff;
+    width: 68px;
+    height: 65px;
+  text-align: center;
+line-height: 11px;
+    border-radius: 50%;
+   
+}
+.icon ul li a{ text-decoration: none;
+
+
+}
+.icon ul li a i{ font-size: 26px;
+      color: black;
+}
+.icon ul li:hover {
+ color: blue;
+ background:brown;
+      
+
+
+} 
+.right .email  {
+                 font-size: 20px;
+                  text-shadow: none;
+                    color: #fff;
+                    margin-left: 801px; 
+                    
+
+}
+
+
+.email ul {
+
+
+
+}
+.email ul li{list-style: none;
+ 
+
+}
+
+
+.email ul li a{
+    text-decoration: none;
+    margin-left: -40px;
+    vertical-align: middle;
+ }
+
+ .email ul li a i{ font-size: 26px;
+    color:white;
+   
+}
+ .right .location {
+
+    font-size: 20px;
+    text-shadow: none;
+    color: #fff;
+    margin-left: 801px;
+
+ }
+ .location ul li{list-style: none;
+    margin-bottom: ;
+      width: ;
+      height: ;
+    text-align:;
+  line-height: ;
+  
+  }
+  
+  
+  .location ul li a{
+      text-decoration: none;
+    margin-left: -40px;
+  
+   }
+  
+   .location ul li a i{ font-size: 26px;
+      color:white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
